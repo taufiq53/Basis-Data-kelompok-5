@@ -3,9 +3,9 @@ USE kelompok5;
 
 
 
--- # DDL (DATA DEFINITION LANGUAGE)
+ # DDL (DATA DEFINITION LANGUAGE)
 
--- # membuat tabel student_info
+ # membuat tabel student_info
  CREATE TABLE student_info (
    student_id INT NOT NULL AUTO_INCREMENT,
    full_name VARCHAR(255) NOT NULL,
@@ -15,7 +15,7 @@ USE kelompok5;
  );
 
 
--- # membuat tabel courses
+ # membuat tabel courses
 
     CREATE TABLE courses (
   	course_id INT NOT NULL AUTO_INCREMENT,
@@ -24,9 +24,9 @@ USE kelompok5;
   	PRIMARY KEY (course_id)
   );
 
--- # membuat tabel schedule
+ # membuat tabel schedule
 
--- CREATE TABLE schedule (
+ CREATE TABLE schedule (
      schedule_id INT NOT NULL AUTO_INCREMENT,
      date DATE,
      time TIME,
@@ -39,7 +39,7 @@ USE kelompok5;
 
 
 
--- # untuk mengambil atau mendapatkan  data dari DATABASE /record yang dibuat sebelumnya.
+ # untuk mengambil atau mendapatkan  data dari DATABASE /record yang dibuat sebelumnya.
 
 SELECT * FROM student_info;
 SELECT * FROM  courses;
