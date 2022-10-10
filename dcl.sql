@@ -10,7 +10,7 @@ GRANT CREATE, DROP, SELECT, INSERT, DELETE, UPDATE
 ON kelompok5 TO 'DosenTeknik'@'localhost';
 
 # Beri hak akses ke user Mahasiswa
-GRANT  SELECT ON kelompok5 TO 'DosenTeknik'@'localhost';
+GRANT  SELECT ON kelompok5 TO 'Mahasiswa'@'localhost;
 
 
 # Cek status hak akses user
